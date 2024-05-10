@@ -65,7 +65,7 @@ body {
 }
 
 .sec-title {
-    font-size: 1.728rem;
+    font-size: 1.44rem;
     color: var(--orange);
     margin-bottom: 0.3em;
 }
@@ -112,13 +112,37 @@ a:hover, a:active, a:focus {
 
 #footer-hr {
     margin-top: 8em;
+    margin-bottom: 1em;
 }
 
-.wa-green {
-    color: #25D366;
-    /* transition: all 0.3s; */
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.wa-green:hover, .wa-green:active, .wa-green:focus {
+
+.contact {
+    text-align: center;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+    color: var(--orange);
+}
+.contact:hover, .contact:active, .contact:focus {
     outline: noone;
-    position: fixed;
+    color: var(--orange-dark);
+}
+
+.contact-middle {
+    margin: 0 0.5em;
+}
+
+.tech {
+    /* list-style-type: none; */
+    display: flex;
+    /* margin-left: 1.3em; */
+}
+
+.tech ul li {
+    list-style-type: none;
+    margin-left: 0.5em;
 }
